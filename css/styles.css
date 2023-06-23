@@ -38,7 +38,6 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 
 .link {
@@ -283,15 +282,25 @@ p {
   padding-top: 100px;
 }
 
+.logo-footer {
+  font-family: var(--logo-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-blue-color);
+}
+
 .studio-footer {
   color: var(--primary-white-color);
-  margin-bottom: 16px;
 }
 
 .footer-text {
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
   max-width: 264px;
+  margin-top: 16px;
 }
 
 /*Portfolio*/
